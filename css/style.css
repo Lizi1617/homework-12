@@ -1,0 +1,92 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+header {
+    height: 116px;
+    background-color: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    column-gap: 72px;
+}
+
+a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F30AEA;
+}
+
+.inactive {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.login_button {
+    width: 84px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: #F30AEA;
+    margin: 8px;
+}
+
+.shopping_button {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #F30AEA;
+}
+
+.fa-cart-shopping {
+    font-size: 11.76px;
+    color: #FFFFFF;
+}
+/* section */
+section {
+    background-image: url(../imiges/Rectangle\ 3\ \(3\).png);
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 920px;
+    height: 784px;
+    padding: 48px 200px;
+    border-radius: 20px;
+    border: 1px solid #B052B5C9;
+    background-color: #1C1325CC;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    box-shadow: 2px 4px 4px 0px #F90CEFB5;
+}
+
