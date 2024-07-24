@@ -15,7 +15,7 @@
         <!-- header -->
         <header>
             <a href="index.html">
-                <img src="imiges/logo plant.svg" alt="logo">
+                <img src="imiges/logo plant.svg" alt="logo" class="logo">
             </a>
             <nav>
                 <ul>
@@ -31,16 +31,58 @@
                 </ul>
             </nav>
             <div>
-                <button class="login_button">LOG IN</button>
-            <button class="shopping_button">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </button>
+                <a href="index.html">
+                    <button class="login_button">LOG IN</button>
+                </a>
+                <a href="index.html">
+                    <button class="shopping_button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </a>
             </div>
         </header>
         <!-- section -->
-        <section>
+        <section class="section">
             <main>
                 <h2>CONTACT US</h2>
+                <form>
+                    <div>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="Email" placeholder="Email">
+                    </div>
+                    <h3>I have a delivery question about my order
+                    </h3>
+                    <section class="div_section">
+                        <div class="input_div">
+                            <input type="radio" class="input">
+                            <label for="">I did not receive my order</label>
+                        </div>
+
+                        <div class="input_div">
+                            <input type="radio" class="input">
+                            <label for="">My order is incorrect or arrived damaged</label>
+                        </div>
+
+                        <div class="input_div">
+                            <input type="radio" class="input">
+                            <label for="">Cancel my order</label>
+                        </div>
+
+                        <div class="input_label">
+                            <input type="radio" class="input">
+                            <label for="">Change my shipping address</label>
+                        </div>
+                    </section>
+                    <div class="textarea">
+                        <label for="">Please provide more details below.</label>
+                        <input type="text" name="Message" id="Message">
+                        <textarea name="Message" id="Message"></textarea>
+                    </div>
+                    <!-- checkbox-ი ვერ ჩავსვი, მგონი თავიდანვე ავურიე რაღაც და მაგიტომაც არ ჩაჯდა სწორად radio-ბი -->
+                    <!-- ვეცდები ფინალურზე უკეთესად დავწერო:) -->
+                    <!-- მადლობა, რომ გვიძლებთ :) -->
+                    <BUtton type="submit" class="form_button">SEND</BUtton>
+                </form>
             </main>
         </section>
     </div>

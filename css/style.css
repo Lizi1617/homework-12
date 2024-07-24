@@ -2,6 +2,7 @@
     width: min(100%, 1440px);
     margin: auto;
 }
+
 /* header */
 header {
     height: 116px;
@@ -24,6 +25,16 @@ a {
     font-weight: 400;
     line-height: 26px;
     color: #F30AEA;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-shadow: 2px cornflowerblue;
+    font-size: 25px;
+}
+
+.logo:hover {
+    width: 70px;
 }
 
 .inactive {
@@ -59,8 +70,14 @@ a {
     font-size: 11.76px;
     color: #FFFFFF;
 }
+
+button:hover {
+    box-shadow: 3px 3px 3px cornflowerblue, inset 3px 3px 3px chocolate;
+    font-size: 20px;
+}
+
 /* section */
-section {
+.section {
     background-image: url(../imiges/Rectangle\ 3\ \(3\).png);
     height: 912px;
     display: flex;
@@ -87,6 +104,93 @@ h2 {
     line-height: 40px;
     letter-spacing: 4px;
     color: #FFFFFF;
-    box-shadow: 2px 4px 4px 0px #F90CEFB5;
+    text-shadow: 2px 4px 4px #B052B5C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.section.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+input {
+    width: 248px;
+    height: 48px;
+    padding: 11px 177px 11px 22px;
+    border-radius: 8px;
+    background-color: #1C1325CC;
+    border: 1px solid #B052B5;
+    outline: none;
+    margin-top: 80px;
+}
+
+.form_button {
+    margin-top: 456px;
+    width: 520px;
+    height: 64px;
+    background-color: #F30AEA;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9E8D9EB5;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
+.input_div {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B052B5;
+    vertical-align: middle;
+    column-gap: 8px;
+}
+
+.input {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #F30AEAB5;
+    accent-color: #F30AEAB5;
+}
+
+.textarea {
+    padding: 24px;
+}
+
+textarea {
+    display: block;
+    width: 520px;
+    height: 112px;
+    border-radius: 8px;
+    border: 1px solid #B052B5
+}
